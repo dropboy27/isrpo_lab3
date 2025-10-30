@@ -1,0 +1,22 @@
+{
+  "name": "my-fio-ext",
+  "displayName": "My FIO Ext",
+  "description": "simple fio inserter",
+  "version": "0.0.1",
+  "publisher": "me",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "activationEvents": [
+    "onCommand:myExt.insertFio"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "myExt.insertFio",
+        "title": "Insert: ФИО (мой плагин)"
+      }
+    ]
+  }
+}
